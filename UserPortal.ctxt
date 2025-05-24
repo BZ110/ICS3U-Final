@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=UserPortal
+comment0.text=\r\n\ Allows\ you\ to\ access\ User\ information\ using\ SQLite\ and\ SQLiteConnection.\r\n\ \r\n\ Everything\ was\ created\ by\ Bashar\ Zain\ in\ this\ class.\r\n\r\n\ @author\ Bashar\ Zain\r\n\ @version\ 1.0\r\n
+comment1.params=name
+comment1.target=UserPortal(java.lang.String)
+comment1.text=\r\n\ Get\ started\ on\ Users\ and\ helps\ us\ initialize\ the\ tables\ needed.\r\n\ \r\n\ @param\ name\ The\ database\ name.\r\n
+comment2.params=
+comment2.target=User[]\ getEverything()
+comment2.text=\r\n\ Get\ everything\ in\ the\ users\ table.\r\n\ \r\n\ @return\ Array\ that\ has\ every\ user\ saved.\r\n
+comment3.params=username
+comment3.target=User\ getByUsername(java.lang.String)
+comment3.text=\r\n\ Get\ only\ by\ username\ in\ the\ users\ table.\r\n\ Assuming\ only\ one\ username\ is\ allowed.\r\n\ \r\n\ @param\ username\ The\ username\ you\ are\ fetching\ from\ the\ database.\r\n\ @return\ The\ user\ class\ of\ that\ username.\r\n
+comment4.params=id
+comment4.target=User\ getByID(int)
+comment4.text=\r\n\ Get\ only\ by\ ID\ in\ the\ users\ table.\r\n\ Assuming\ only\ one\ ID\ is\ allowed.\r\n\ \r\n\ @param\ id\ The\ ID\ you\ are\ fetching\ from\ the\ database.\r\n\ @return\ The\ user\ class\ of\ that\ ID.\r\n
+comment5.params=user
+comment5.target=void\ addUser(User)
+comment5.text=\r\n\ Add\ a\ user\ to\ the\ database.\r\n\ \r\n\ @param\ user\ The\ user\ to\ add\ to\ the\ database.\r\n
+comment6.params=user
+comment6.target=void\ deleteUser(User)
+comment6.text=\r\n\ Delete\ a\ user\ from\ the\ database.\r\n\ \r\n\ @param\ user\ The\ user\ to\ delete\ from\ the\ database.\r\n
+numComments=7

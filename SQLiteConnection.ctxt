@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SQLiteConnection
+comment0.text=\r\n\ Allows\ you\ to\ easily\ access\ SQLite.\r\n\r\n\ Everything\ was\ created\ by\ Bashar\ Zain\ in\ this\ class.\r\n\r\n\ @author\ Bashar\ Zain\r\n\ @version\ 1.0\r\n
+comment1.params=text
+comment1.target=void\ log(java.lang.String)
+comment1.text=\r\n\ Easy\ logging\ system\ to\ ensure\ a\ prefix.\r\n\ \r\n\ @param\ text\ The\ text\ you\ want\ to\ log.\r\n
+comment2.params=name
+comment2.target=SQLiteConnection(java.lang.String)
+comment2.text=\r\n\ Default\ constructor\ for\ SQLiteConnection.\r\n\ Set\ the\ necessary\ variables\ to\ get\ started.\r\n\ \r\n\ @param\ name\ The\ name\ of\ the\ database.\r\n
+comment3.params=
+comment3.target=void\ init()
+comment3.text=\r\n\ Initialize\ the\ database.\r\n
+comment4.params=
+comment4.target=void\ close()
+comment4.text=\r\n\ Close\ the\ database.\r\n
+comment5.params=sql
+comment5.target=java.sql.ResultSet\ execute(java.lang.String)
+comment5.text=\r\n\ Execute\ an\ SQL\ String\ while\ the\ database\ is\ open.\r\n\ \r\n\ @param\ sql\ The\ SQL\ string\ you\ would\ like\ to\ execute.\r\n\ @return\ ResultSet\ containing\ the\ result.\ \r\n
+comment6.params=
+comment6.target=java.sql.Connection\ getConnection()
+comment6.text=\r\n\ Get\ the\ connection\ for\ the\ database.\r\n\ \r\n\ @return\ The\ connection\ for\ the\ database.\r\n
+numComments=7

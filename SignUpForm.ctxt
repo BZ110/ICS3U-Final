@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=SignUpForm
+comment0.text=\r\n\ This\ class\ create\ a\ Jframe\ that\ allows\ the\ user\ to\ input\ all\ their\ data,\ and\ through\ a\ button\ click\ the\ program\ collects\ the\ input\ in\ the\ fields.\r\n\ \r\n\ @author\ Lakshmanan\ Ramanathan\r\n
+comment1.params=newhome
+comment1.target=SignUpForm(Homepage)
+comment1.text=\r\n\ The\ constructor\ to\ make\ the\ popup\ to\ sign\ up.\r\n\ \r\n\ @author\ Lakshmanan\ Ramanathan\r\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=username\ password\ fullName\ email\ phoneNumber
+comment3.target=void\ signUpUser(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ This\ method\ ensures\ that\ the\ user\ inputs\ all\ valid\ feilds\ and\ informs\ the\ user\ when\ a\ certain\ input\ does\ not\ pass\ the\ guidlines\ through\ an\ option\ pane.\r\n\r\n\ @author\ Bashar\ Zain\r\n\ @param\ username\r\n\ @param\ password\r\n\ @param\ fullName\r\n
+numComments=4

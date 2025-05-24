@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ListingPortal
+comment0.text=\r\n\ Allows\ you\ to\ access\ Listing\ information\ using\ SQLite\ and\ SQLiteConnection.\r\n\r\n\ Everything\ was\ created\ by\ Bashar\ Zain\ in\ this\ class.\r\n\r\n\ @author\ Bashar\ Zain\r\n\ @version\ 1.0\r\n
+comment1.params=name
+comment1.target=ListingPortal(java.lang.String)
+comment1.text=\r\n\ Get\ started\ on\ listings\ and\ helps\ us\ initialize\ the\ tables\ needed.\r\n\ \r\n\ @param\ name\ The\ database\ name.\r\n
+comment2.params=
+comment2.target=Listing[]\ getEverything()
+comment2.text=\r\n\ Get\ everything\ in\ the\ listings\ table.\r\n\ \r\n\ @return\ Array\ that\ has\ every\ listing\ saved.\r\n
+comment3.params=id
+comment3.target=Listing\ getByID(int)
+comment3.text=\r\n\ Get\ only\ by\ ID\ in\ the\ listings\ table.\r\n\ Assuming\ only\ one\ ID\ is\ allowed.\r\n\ \r\n\ @param\ id\ The\ ID\ you\ are\ fetching\ from\ the\ database.\r\n\ @return\ The\ listing\ class\ of\ that\ ID.\r\n
+comment4.params=listing
+comment4.target=void\ addListing(Listing)
+comment4.text=\r\n\ Add\ a\ listing\ to\ the\ database.\r\n\ \r\n\ @param\ listing\ The\ listing\ to\ add\ to\ the\ database.\r\n
+comment5.params=listing
+comment5.target=void\ deleteListing(Listing)
+comment5.text=\r\n\ Delete\ a\ listing\ from\ the\ database.\r\n\ \r\n\ @param\ listing\ The\ listing\ to\ delete\ from\ the\ database.\r\n
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LogInForm
+comment0.text=\r\n\ This\ class\ will\ create\ and\ open\ a\ login\ page\ in\ the\ center\ of\ the\ screen\ so\ that\ they\ can\ sign\ it,\ it\r\n\ will\ also\ validate\ it\ from\ the\ database,\ while\ ensuring\ basic\ checks\ like\ null\ values\ input\ length\r\n\r\n\ @author\ Lakshmanan\ Ramanathan\r\n\ @version\ 1.0\r\n\r\n
+comment1.params=newHome
+comment1.target=LogInForm(Homepage)
+comment1.text=\r\n\ This\ constructor\ creates\ a\ login\ form\ that\ accepts\ input\ and\ stores\ the\ input\ to\ strings\ when\ a\ button\ is\ clicked\r\n\r\n\ @author\ Lakshmanan\ Ramanathan\r\n\ @param\ thisHome\ you\ have\ to\ pass\ the\ homepage\ so\ that\ you\ can\ close\ it\ when\ login\ is\ clicked\ and\ verified\r\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=username\ password
+comment3.target=void\ logMeIn(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ This\ function\ will\ validate\ if\ the\ user\ is\ in\ the\ database\ and\ check\ their\ information\ after\ performing\ basic\ checks.\r\n\ @param\ username\ The\ username\ of\ the\ user.\r\n\ @param\ password\ The\ password\ of\ the\ user.\r\n\ @author\ Bashar\ Zain\r\n
+numComments=4

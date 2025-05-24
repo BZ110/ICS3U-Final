@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=LearnMorePage
+comment0.text=\r\n\ Shows\ important\ information\ and\ educates\ the\ consumer\ about\ fast\ fashion\ \r\n\ and\ the\ effects\ of\ not\ responsibly\ consuming\ textiles\ and\ their\ impact\ \r\n\ on\ the\ environment\r\n\r\n\ @author\ Kiran\ Goli\r\n\ @version\ 1.0\r\n
+comment1.params=user
+comment1.target=javax.swing.JPanel\ navigatorBarBoot(User)
+comment1.text=\r\n\ Loading\ the\ navigation\ bar.\r\n\ just\ for\ the\ top\ part\ its\ copy\ and\ paste\r\n\ \r\n\ @author\ Lakshmanan\ Ramanathan\ \r\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=state\ home\ user
+comment4.target=LearnMorePage(java.lang.String,\ Homepage,\ User)
+comment4.text=\r\n\ Constructor\ for\ Learn\ More\ Page.\r\n\ \r\n\ @author\ Kiran\ Goli\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ Load\ manually\ at\ times\ for\ testing.\r\n\ \r\n\ @author\ Kiran\ Goli\r\n
+numComments=6

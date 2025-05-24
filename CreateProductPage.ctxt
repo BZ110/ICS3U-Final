@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CreateProductPage
+comment0.text=\r\n\ This\ shows\ a\ frame\ to\ a\ user\ with\ various\ fields\ where\ the\ user\ can\ enter\ information\ about\ their\ listing,\ allowing\ them\ to\ create\ the\ listing.\r\n\r\n\ @author\ Lakshmanan\ Ramanathan\r\n
+comment1.params=thisHome\ id\ state\ newUser
+comment1.target=CreateProductPage(Homepage,\ int,\ java.lang.String,\ User)
+comment1.text=\r\n\ Creating\ a\ listing,\ requiring\ multiple\ fields.\r\n\ \r\n\ @author\ Lakshmanan\ Ramanathan\r\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=listing
+comment3.target=void\ addListing(Listing)
+comment3.text=\r\n\ Add\ a\ listing\ to\ the\ database\ with\ validation.\r\n\ @author\ Bashar\ Zain\r\n\ @param\ listing\ The\ listing\ you\ want\ to\ add.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getDate()
+comment4.text=\r\n\ Using\ Java's\ SimpleDateFormat,\ return\ a\ formatted\ string\ date.\r\n\ @author\ Bashar\ Zain\r\n\ @return\ Date\ in\ string.\r\n
+comment5.params=weight\ cotton\ nylon\ polyester
+comment5.target=double\ calculateCO2Offset(double,\ int,\ int,\ int)
+comment5.text=\r\n\ Calculate\ the\ CO2\ offset\ using\ fixed\ variables.\r\n\ \r\n\ @author\ Bashar\ Zain\r\n\ @param\ weight\ The\ total\ weight\ of\ the\ object.\r\n\ @param\ cotton\ The\ amount\ of\ cotton\ in\ a\ percent.\r\n\ @param\ nylon\ The\ amount\ of\ nylon\ in\ a\ percent.\r\n\ @param\ polyester\ The\ amount\ of\ polyester\ in\ a\ percent.\r\n\ @return\ The\ CO2\ offset.\r\n
+numComments=6
